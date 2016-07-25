@@ -90,3 +90,6 @@ ENV/
 
 # hidden
 _*
+
+# notebooks
+*.ipynb
