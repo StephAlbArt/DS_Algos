@@ -1,9 +1,10 @@
-class _Node:
-    def __init__(self, key, value):
+class _TreeNode:
+    def __init__(self, key, value=None):
         """
         Create a node element.
 
-        Keyword arguments:
+        Parameters
+        ----------
         key : int, float
         value : any type, optional
         """
@@ -30,7 +31,6 @@ class Tree:
         Returns
         -------
         bool
-            Whether or not key_to_find exists in tree.
 
         """
         # set default value if node parameter not specified
